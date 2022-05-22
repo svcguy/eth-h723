@@ -1,0 +1,17 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "binaryPath": "/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin/STM32_Programmer_CLI",
+            "binaryArgs": [
+                "--connect",
+                "port=SWD",
+                "--download",
+                "./build/eth-h723.elf",
+                "--verify",
+                "-hardRst",
+                "-run",
+            ]
+        }
+    ],
+}
